@@ -1,7 +1,7 @@
 {
   "product": "one-hand-dev-launcher",
   "tag": "v0.1.0-alpha.1",
-  "generatedAt": "2026-05-07T23:57:59Z",
+  "generatedAt": "2026-05-07T23:58:11Z",
   "commands": [
     "cmd.exe /d /s /c npm test",
     "node src/cli/index.js samples/representative-suite.json"
