@@ -1,0 +1,90 @@
+{
+  "product": "one-hand-dev-launcher",
+  "generatedAt": "2026-05-07T23:57:59Z",
+  "scenarios": [
+    {
+      "id": "happy-path",
+      "records": [
+        {
+          "title": "片手操作・開発用ランチャー",
+          "mode": "片手操作・開発用ランチャー mode",
+          "nextAction": "日常用と開発検証用の起動候補を1タップ圏内に分ける",
+          "permissionReason": "片手操作・開発用ランチャー permissionReason",
+          "reviewDate": "片手操作・開発用ランチャー reviewDate",
+          "id": "hp-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 0,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "missing-required",
+      "records": [
+        {
+          "mode": "片手操作・開発用ランチャー mode",
+          "nextAction": "日常用と開発検証用の起動候補を1タップ圏内に分ける",
+          "permissionReason": "片手操作・開発用ランチャー permissionReason",
+          "reviewDate": "片手操作・開発用ランチャー reviewDate",
+          "id": "missing-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 1,
+        "warnings": 0
+      }
+    },
+    {
+      "id": "warning",
+      "records": [
+        {
+          "title": "片手操作・開発用ランチャー",
+          "mode": "片手操作・開発用ランチャー mode",
+          "nextAction": "日常用と開発検証用の起動候補を1タップ圏内に分ける",
+          "reviewDate": "片手操作・開発用ランチャー reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 0,
+        "failures": 0,
+        "warnings": 1
+      }
+    },
+    {
+      "id": "mixed-batch",
+      "records": [
+        {
+          "title": "片手操作・開発用ランチャー",
+          "mode": "片手操作・開発用ランチャー mode",
+          "nextAction": "日常用と開発検証用の起動候補を1タップ圏内に分ける",
+          "permissionReason": "片手操作・開発用ランチャー permissionReason",
+          "reviewDate": "片手操作・開発用ランチャー reviewDate",
+          "id": "mixed-ok-001"
+        },
+        {
+          "title": "片手操作・開発用ランチャー",
+          "mode": "片手操作・開発用ランチャー mode",
+          "permissionReason": "片手操作・開発用ランチャー permissionReason",
+          "reviewDate": "片手操作・開発用ランチャー reviewDate",
+          "id": "mixed-bad-001"
+        },
+        {
+          "title": "片手操作・開発用ランチャー",
+          "mode": "片手操作・開発用ランチャー mode",
+          "nextAction": "日常用と開発検証用の起動候補を1タップ圏内に分ける",
+          "reviewDate": "片手操作・開発用ランチャー reviewDate",
+          "id": "warn-001"
+        }
+      ],
+      "expected": {
+        "passes": 1,
+        "failures": 1,
+        "warnings": 1
+      }
+    }
+  ]
+}
