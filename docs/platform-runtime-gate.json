@@ -1,0 +1,14 @@
+{
+  "product": "one-hand-dev-launcher",
+  "title": "片手操作・開発用ランチャー",
+  "domain": "AndroidApp",
+  "ideaNo": 10,
+  "platformType": "android-emulator",
+  "expectedPublicTarget": "Google Play",
+  "browser": null,
+  "android": {
+    "packageName": "com.sunmax0731.onehanddevlauncher",
+    "evidence": "dist/android-emulator-result.json"
+  },
+  "evidence": "dist/platform-runtime-gate-result.json"
+}
