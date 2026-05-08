@@ -1,0 +1,18 @@
+{
+  "product": "one-hand-dev-launcher",
+  "packageName": "com.sunmax0731.onehanddevlauncher",
+  "build": {
+    "apk": "dist/one-hand-dev-launcher-debug.apk",
+    "method": "android-sdk-aapt2-d8-apksigner"
+  },
+  "launch": {
+    "started": true,
+    "activity": ".MainActivity",
+    "amStartStatusOk": true,
+    "pid": "7251"
+  },
+  "emulator": {
+    "avd": "CodexApi30"
+  },
+  "manualTest": "not-run-by-codex"
+}
